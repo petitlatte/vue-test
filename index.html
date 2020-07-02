@@ -6,9 +6,20 @@
 </head>
 <body>
 
-<div id="app">
+<!-- <div id="app">
   {{ message }}
-</div>	
+</div> -->
+
+<!-- <div id="app-2">
+  <span v-bind:title="message">
+    Hover your mouse over me for a few seconds
+    to see my dynamically bound title!
+  </span>
+</div>	 -->
+
+<div id="app-3">
+  <span v-if="seen">Now you see me</span>
+</div>
 
 <!--SCRIPT TAGS-->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
